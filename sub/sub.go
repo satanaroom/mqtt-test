@@ -23,8 +23,8 @@ func main() {
 	subOpt := SubOpt{
 		topic:     "test",
 		broker:    "tcp://localhost:1883",
-		password:  "",
-		user:      "",
+		password:  "qwerty1",
+		user:      "ftragula",
 		id:        "sub1",
 		cleansess: false,
 		qos:       0,

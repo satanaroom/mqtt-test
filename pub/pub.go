@@ -22,8 +22,8 @@ func main() {
 	pubOpt := PubOpt{
 		topic:     "test",
 		broker:    "tcp://192.168.64.84:1883",
-		password:  "",
-		user:      "",
+		password:  "qwerty1",
+		user:      "ftragula",
 		id:        "pub1",
 		cleansess: false,
 		qos:       0,
