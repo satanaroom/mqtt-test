@@ -21,7 +21,7 @@ type PubOpt struct {
 func main() {
 	pubOpt := PubOpt{
 		topic:     "test",
-		broker:    "tcp://192.168.64.255:1883",
+		broker:    "tcp://192.168.64.84:1883",
 		password:  "",
 		user:      "",
 		id:        "pub1",
